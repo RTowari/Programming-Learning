@@ -1,8 +1,50 @@
 
 body {
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background: rgb(31, 41, 55);
+}
+
+.container {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.first-row {
+    background: #1F2937;
+    height: 100%;
+}
+
+.second-row {
+    height: 100%;
+}
+
+.third-row {
+    height: 100%;
+    background: #E5E7Eb
+}
+
+.fourth-row {
+    height: 100%;
+}
+
+.footer {
+    background: #1F2937;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    color:rgb(189, 189, 189);
+    font-size: 18px;
+}
